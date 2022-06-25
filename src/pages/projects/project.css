@@ -1,0 +1,56 @@
+.projects{
+    flex:10
+}
+.projectWrapper {
+
+    width: 75%;
+    height: 120px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    margin-top: 2%;
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    margin-right: 2%;
+    display: flex;
+
+}
+
+
+.imgSpace{
+    flex: 0.7;
+    display: flex;
+    width: 100%;
+}
+
+.contentspace{
+    flex: 4;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.ProjTitle{
+    color: #233975;
+}
+
+.projDet{
+    color: #233975;
+}
+
+
+.projbtn{
+    flex: 3;
+    
+}
+
+.projButton{
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    background-color:#233975;
+    font-weight: 500;
+    margin-right: 45%;
+    margin-top: 20%;
+    cursor: pointer;
+    color: wheat;
+    width: 50%;
+}
+

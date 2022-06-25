@@ -1,0 +1,102 @@
+.addemployee{
+    flex: 10;
+}
+.addemployeeWrapper{
+    
+    width: 95%;
+    margin: 3%;
+    border: 0.5px solid rgba(0, 0, 0, 0.301);
+    border-radius: 0.3rem;
+    box-shadow: 0px -1px 3px #00000026;
+
+}
+
+.addemployeeHeader{
+    padding-right:10px;
+    background-color: #e0e0e6;
+    border-radius: 0.3rem;
+    border-bottom:0.5px solid rgba(0, 0, 0, 0.301) ;
+}
+.addemployeeHeader p{
+    font-size: 12px;
+}
+.addemployeecontainer{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-flow: row wrap
+}
+
+@media all and (max-width: 800px){
+    .addemployeecontainer{
+    flex-direction:column;
+    
+}
+.buttonsfield{
+    flex-direction: column;
+    margin-right: 0%;
+}
+}
+
+.addemployeeFcol{
+
+width: 32%;
+}
+
+.addemployeeScol{
+
+width: 32%;
+direction: rtl;
+}
+
+
+.addemployeecontainer h5{
+    
+    font-weight:600;
+    margin-top: 11%;
+}
+
+.addemployeecontainer input{
+    width: 90%;
+    border: 0.5px solid rgba(0, 0, 0, 0.301);
+    border-radius: 0.3rem;
+}
+.addemployeecontainer input:focus{
+    outline: none;
+}
+
+.addemployeecontainer input::placeholder{
+    padding: 2%;
+}
+
+.buttonsfield{
+    
+    margin-top: 3%;
+    margin-right: 60%;
+    margin-bottom: 3%;
+    display: flex;
+    
+}
+
+.buttonsfield .cancel{
+    background-color: #F54242;
+    padding: 10% 30%;
+    border: none;
+    margin-right: 15%;
+    color: white;
+    border-radius: 0.3rem;
+    font-size: 14px;
+    cursor: pointer;
+}
+.buttonsfield .save{
+    background-color:#233975 ;
+    padding: 10% 30%;
+    border: none;
+    margin-right: 15%;
+    color: white;
+    border-radius: 0.3rem;
+    font-size: 14px;
+    cursor: pointer;
+}

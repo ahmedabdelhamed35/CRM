@@ -1,0 +1,71 @@
+.sideBar{
+    flex: 2;
+    height: calc(250vh - 50px);
+    background-color: #233975;
+    
+}
+
+
+
+.sideWrapper{
+    padding: 2%;
+    align-items: center;
+    background-color: #233975;
+    height: 100%;
+    position:static
+}
+
+.sidebarList{
+    color: white;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+
+.sidebarItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    font-size: 15px;
+    padding-right: 7%;
+    cursor: pointer;
+
+}
+.sidebarItem:hover{
+    background-color: white;
+    color:#233975;
+}
+.arrow{
+    font-size: 15px;
+    margin-right: 50%;
+}
+
+.thenistedItems{
+    background-color: #233975;
+    color: white;
+    margin-bottom: 20px;
+    direction: rtl;
+}
+
+.sidebarIcon{
+    margin-left: 5%;
+}
+
+.sidebarListtextnest{
+    font-size: 12px;
+    margin-right: 10%;
+
+}
+
+
+.sidebarprofileItem{
+    text-align: center;
+    margin-bottom: 21%;
+    margin-top: -2%;
+}
+
+
+.disc{
+    font-size: 10px;
+}

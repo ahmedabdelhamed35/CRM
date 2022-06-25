@@ -1,0 +1,68 @@
+.addproject {
+    flex: 10;
+}
+
+.addprojectWrapper {
+    margin: 3%;
+}
+
+.addingprojectPhoto {
+    background-color: white;
+    text-align: center;
+    border: 0.5px solid #00000038;
+    box-shadow: 0px 3px 7px 3px #0000004d;
+    border-radius: 10px;
+    height: 150px;
+    
+
+}
+
+.addingprojicon {
+    color: #233975;
+    font-size: 80px !important;
+    cursor: pointer;
+    max-width:80px;
+
+}
+
+.addprojorder {
+    font-size: 11px;
+    color: #233975;
+    margin-top: 10%;
+}
+
+
+.addingprojectDet {
+    background-color: blueviolet;
+
+}
+
+.addingprojectDet {
+    background-color: white;
+    border: 0.5px solid #00000038;
+    box-shadow: 0px 3px 7px 3px #0000004d;
+    border-radius: 10px;
+}
+
+.fromofaddproject {
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+.titleofaddedproject {
+    font-size: 15px;
+    color: #233975;
+}
+
+.addingprojinputname {
+    border: 0.3px solid #80808082;
+    width: 70%;
+    
+    
+    
+}
+
+.addingprojinputname::placeholder{
+    padding-right: 6%;
+    font-size: 11px;
+}

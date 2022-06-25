@@ -1,0 +1,105 @@
+.addclient{
+    flex: 10;
+}
+.addclientWrapper{
+    
+    width: 95%;
+    margin: 3%;
+    border: 0.5px solid rgba(0, 0, 0, 0.301);
+    border-radius: 0.3rem;
+    box-shadow: 0px -1px 3px #00000026;
+
+}
+
+.addclientHeader{
+    padding-right:10px;
+    background-color: #e0e0e6;
+    border-radius: 0.3rem;
+    border-bottom:0.5px solid rgba(0, 0, 0, 0.301) ;
+}
+.addclientHeader p{
+    font-size: 12px;
+}
+.addclientcontainer{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-flow: row wrap
+}
+
+@media all and (max-width: 800px){
+    .addclientcontainer{
+    flex-direction:column;
+    
+}
+.buttonsfield{
+    flex-direction: column;
+    margin-right: 0%;
+}
+}
+
+.addclientFcol{
+
+width: 32%;
+}
+
+.addclientScol{
+
+width: 32%;
+direction: rtl;
+}
+
+.addclienTHFcol{
+
+width: 32%;
+}
+.addclientcontainer h5{
+    
+    font-weight:600;
+    margin-top: 11%;
+}
+
+.addclientcontainer input{
+    width: 80%;
+    border: 0.5px solid rgba(0, 0, 0, 0.301);
+    border-radius: 0.3rem;
+}
+.addclientcontainer input:focus{
+    outline: none;
+}
+
+.addclientcontainer input::placeholder{
+    padding: 2%;
+}
+
+.buttonsfield{
+    
+    margin-top: 3%;
+    margin-right: 60%;
+    margin-bottom: 3%;
+    display: flex;
+    
+}
+
+.buttonsfield .cancel{
+    background-color: #F54242;
+    padding: 10% 30%;
+    border: none;
+    margin-right: 15%;
+    color: white;
+    border-radius: 0.3rem;
+    font-size: 17px;
+    cursor: pointer;
+}
+.buttonsfield .save{
+    background-color:#233975 ;
+    padding: 10% 30%;
+    border: none;
+    margin-right: 15%;
+    color: white;
+    border-radius: 0.3rem;
+    font-size: 17px;
+    cursor: pointer;
+}
